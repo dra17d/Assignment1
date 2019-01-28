@@ -1,0 +1,89 @@
+a)
+
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 407 bytes | 407.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/dra17d/Assignment1
+   79a06b3..19942b9  master -> master
+
+---------------------------------------------------------------------
+b)
+
+"git rev-list --all --count" = outputs number of commits
+
+"git shortlog" = outputs commits with authors and the number of commits
+		they made, with short descriptions
+
+---------------------------------------------------------------------
+c)
+
+Date:   Thu Jan 10 16:45:38 2019 -0500
+
+"git log --follow .gitignore"
+
+---------------------------------------------------------------------
+d)
+
+1) Programmers can work on the code base without affecting a stable
+  version of the project files.
+
+2) Should a main branch have issues, a copy can be made and edited without
+  affecting another edited copy on the same machine.
+
+---------------------------------------------------------------------
+e)
+
+"git log" = outputs commits with descriptions, authors, date & time, etc.
+
+"git status" = checks if current branch is up to date with master branch
+
+---------------------------------------------------------------------
+f)
+
+"git log --follow Weapon.h"
+
+---------------------------------------------------------------------
+g)
+
+"git log --grep=="file"
+
+---------------------------------------------------------------------
+h)
+
+I)    Inheritance is the inclusion of methods and data types usuable by
+    a child class which come from its parent.
+
+II)    Polymorphism is the usage of a method's name, but with different
+     parameters.
+
+III)    Encapsulation is the restriction of direct access to an object's
+      values and methods. Usually in the form of "set" and "get" methods.
+
+---------------------------------------------------------------------
+i)
+
+    Integration Manager workflow gives each developer a public & private
+repositority to pull/push to respectively. An integration manager pulls
+from the public repositories and performs conflict resolution before
+pushing to the blessed respository.
+
+    Dictator & Lieutenants differs in that lieutenant repositories handle
+merge conflicts for groupings of developers, before pushing to a dictator
+repository. The dictator then merges the lieutenant repositories and pushes
+to the blessed repository, which only the dictator can push to.
+
+---------------------------------------------------------------------
+j)
+
+    A team of 100 developers would benefit from Dicator & Lieutenants
+over Centralized because reducing the number of direct pushes to the
+master repository would reduce the amount of confusion working with it.
+100 people pushing edits to the shared respository would mean few
+developers would be working with the most up-to-date version of the code.
+As a result, merge conflicts would be numereous and programmers are
+going to have a hard time implementing features while constantly updating
+their local repositories.
