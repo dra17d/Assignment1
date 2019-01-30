@@ -4,6 +4,9 @@
  * Author: Javier <jrescobara@gmail.com> 
  *
  * Created on September 25, 2017, 3:19 PM
+ *
+ * Edited by: Dominick Aiudi <dra17d@my.fsu.edu>
+ *
  */
 
 #include <cstdlib>
@@ -39,9 +42,12 @@ int main(int argc, char** argv) {
     simulateWeapon(weapon, armor);
     delete(weapon);
 
-    // weapon = WeaponFactory::getInstance()->getWeapon("hammer");
-    // simulateWeapon(weapon, armor);
-    // delete(weapon);
+    weapon = WeaponFactory::getInstance()->getWeapon("hammer");
+    simulateWeapon(weapon, armor);
+    delete(weapon);
+
+    string wait;
+    cin >> wait;
 
     return 0;
 }
