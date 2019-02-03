@@ -1,0 +1,42 @@
+$ git reflog --all
+37ae0f2 (HEAD -> development, origin/master, origin/development, origin/HEAD, master) HEAD@{0}: checkout: moving from master to development
+37ae0f2 (HEAD -> development, origin/master, origin/development, origin/HEAD, master) refs/remotes/origin/master@{0}: update by push
+37ae0f2 (HEAD -> development, origin/master, origin/development, origin/HEAD, master) refs/heads/master@{0}: merge development: Fast-forward
+37ae0f2 (HEAD -> development, origin/master, origin/development, origin/HEAD, master) HEAD@{1}: merge development: Fast-forward
+e381071 HEAD@{2}: checkout: moving from development to master
+37ae0f2 (HEAD -> development, origin/master, origin/development, origin/HEAD, master) refs/remotes/origin/development@{0}: update by push
+37ae0f2 (HEAD -> development, origin/master, origin/development, origin/HEAD, master) refs/heads/development@{0}: commit: CustomWeapon implemented. Math library imported.
+37ae0f2 (HEAD -> development, origin/master, origin/development, origin/HEAD, master) HEAD@{3}: commit: CustomWeapon implemented. Math library imported.
+fb3c67b refs/remotes/origin/development@{1}: update by push
+fb3c67b refs/heads/development@{1}: commit: Added CustomWeapon
+fb3c67b HEAD@{4}: commit: Added CustomWeapon
+f4a0f14 refs/remotes/origin/development@{2}: update by push
+f4a0f14 refs/heads/development@{2}: commit: CrazyRandomSword implemented
+f4a0f14 HEAD@{5}: commit: CrazyRandomSword implemented
+3a5b5cf HEAD@{6}: checkout: moving from master to development
+e381071 HEAD@{7}: checkout: moving from development to master
+3a5b5cf refs/remotes/origin/development@{3}: update by push
+3a5b5cf refs/heads/development@{3}: commit: CrazyRandomSword created, not implemented. Commments added
+3a5b5cf HEAD@{8}: commit: CrazyRandomSword created, not implemented. Commments added
+2199011 refs/remotes/origin/development@{4}: update by push
+2199011 refs/heads/development@{4}: commit: SimpleHammer implemented. Linking fixed
+2199011 HEAD@{9}: commit: SimpleHammer implemented. Linking fixed
+2c29274 refs/remotes/origin/development@{5}: update by push
+2c29274 refs/heads/development@{5}: commit: SimpleHammer created, not implemented. Linking issue.
+2c29274 HEAD@{10}: commit: SimpleHammer created, not implemented. Linking issue.
+e381071 HEAD@{11}: checkout: moving from master to development
+e381071 HEAD@{12}: checkout: moving from development to master
+e381071 refs/heads/development@{6}: branch: Created from master
+e381071 HEAD@{13}: checkout: moving from master to development
+e381071 refs/remotes/origin/master@{1}: update by push
+e381071 refs/heads/master@{1}: commit: Edited answers.txt
+e381071 HEAD@{14}: commit: Edited answers.txt
+4036505 refs/remotes/origin/master@{2}: update by push
+4036505 refs/heads/master@{2}: commit: Added empty txt file named: answers.txt
+4036505 HEAD@{15}: commit: Added empty txt file named: answers.txt
+19942b9 refs/remotes/origin/master@{3}: update by push
+19942b9 refs/heads/master@{3}: commit: Added git status output to status.txt
+19942b9 HEAD@{16}: commit: Added git status output to status.txt
+79a06b3 refs/heads/master@{4}: clone: from https://github.com/dra17d/Assignment1
+79a06b3 refs/remotes/origin/HEAD@{0}: clone: from https://github.com/dra17d/Assignment1
+79a06b3 HEAD@{17}: clone: from https://github.com/dra17d/Assignment1
