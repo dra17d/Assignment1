@@ -46,6 +46,8 @@ int main(int argc, char** argv) {
     simulateWeapon(weapon, armor);
     delete(weapon);
 
+
+    // Prevents window from automatically closing
     string wait;
     cin >> wait;
 
