@@ -87,3 +87,15 @@ developers would be working with the most up-to-date version of the code.
 As a result, merge conflicts would be numereous and programmers are
 going to have a hard time implementing features while constantly updating
 their local repositories.
+
+---------------------------------------------------------------------
+5 - RoleGame OOP principles
+
+    The protoype uses polypmorphism in that all of the weapons inherit
+from the Weapon class, and change the "hit" function to apply their
+own specific parameters to the damage calculations.
+
+    The prototype also uses encapsulation. The weapon name and hitPoints
+variables are under "protected". The Weapon class has a function called
+"getname" which returns a string containing the weapon's name, instead
+of allowing direct access to the value.
