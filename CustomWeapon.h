@@ -12,15 +12,16 @@
 #define CUSTOMWEAPON_H
 
 /**
- * Defines the behavior of a simple hammer (hitpoint = 40, ignores 20% of 
- * armor points)
+ * Defines the behavior of a delicate blade 
+ * hitpoint = 80
+ * if armor > 20 then armor is increased by 50%
  */
 class CustomWeapon : public Weapon {
 public:
 
-    CustomWeapon() : Weapon("Simple hammer", 25.0)
+    CustomWeapon() : Weapon("Delicate blade", 80.0)
     {
-    	// Calls Weapon(name, hitpoints) constructor with values Simple Hammmer and 25.0
+    	// Calls Weapon(name, hitpoints) constructor with values Delicate blade and 80.0
     }
 
     virtual ~CustomWeapon() {};

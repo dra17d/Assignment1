@@ -5,6 +5,7 @@
  * Created on September 27, 2017, 4:15 PM
  */
 
+#include <math.h>
 #include "CommonSpear.h"
 
 double CommonSpear::hit(double armor) {
@@ -12,5 +13,5 @@ double CommonSpear::hit(double armor) {
     if (damage < 0) {
         return 0;
     }
-    return damage;
+    return floor(damage);
 }

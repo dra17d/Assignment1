@@ -50,6 +50,9 @@ int main(int argc, char** argv) {
     simulateWeapon(weapon, armor);
     delete(weapon);
 
+    weapon = WeaponFactory::getInstance()->getWeapon("custom");
+    simulateWeapon(weapon, armor);
+    delete(weapon);
 
     // Prevents window from automatically closing
     string wait;
