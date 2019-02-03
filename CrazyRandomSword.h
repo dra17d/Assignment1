@@ -6,6 +6,7 @@
  */
 
 #include <string>
+#include <time.h>
 #include "Weapon.h"
 
 #ifndef CRAZYRANDOMSWORD_H
@@ -22,8 +23,9 @@ public:
     CrazyRandomSword() : Weapon("Crazy random sword", 0.0)
     { 
     	// Calls Weapon(name, hitpoints) constructor with values:
-    	// crazy random sword and 0.0
-    	// base damage is irrelevant because its random
+    	// crazy random sword
+    	srand(time(NULL));
+    	hitPoints = rand() % 100 + 7;
     }
 
     virtual ~CrazyRandomSword() {};

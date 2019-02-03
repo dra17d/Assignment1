@@ -46,6 +46,10 @@ int main(int argc, char** argv) {
     simulateWeapon(weapon, armor);
     delete(weapon);
 
+    weapon = WeaponFactory::getInstance()->getWeapon("random");
+    simulateWeapon(weapon, armor);
+    delete(weapon);
+
 
     // Prevents window from automatically closing
     string wait;
